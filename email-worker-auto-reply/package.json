@@ -1,0 +1,15 @@
+{
+  "name": "email-worker-auto-reply",
+  "version": "0.0.0",
+  "devDependencies": {
+    "wrangler": "3.92.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "mimetext": "^3.0.24"
+  }
+}
